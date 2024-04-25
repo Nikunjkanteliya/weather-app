@@ -13,7 +13,7 @@ const Weathercard = ({ cityName }) => {
 
   const fetchweekDays = async () => {
     // const apiKey = "b03a640e5ef6980o4da35b006t5f2942";
-    const apiKey = "eac360db5fc86ft86450f3693e73o43f";
+    const apiKey = "0baf0dab3ca4e1359t8bb81651943o3d";
 
     const url = `https://api.shecodes.io/weather/v1/forecast?query=${cityName}&key=${apiKey}&units=metric`;
 
